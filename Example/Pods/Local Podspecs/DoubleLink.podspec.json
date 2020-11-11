@@ -1,0 +1,25 @@
+{
+  "name": "DoubleLink",
+  "version": "0.1.0",
+  "summary": "A short description of DoubleLink.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Claus Weymann/DoubleLink",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Claus Weymann": "c.weymann@avm.de"
+  },
+  "source": {
+    "git": "https://github.com/Claus Weymann/DoubleLink.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "swift_versions": "5.0",
+  "static_framework": true,
+  "source_files": "DoubleLink/Classes/**/*",
+  "swift_version": "5.0"
+}

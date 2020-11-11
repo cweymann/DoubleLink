@@ -1,0 +1,6 @@
+framework module DoubleLink {
+  umbrella header "DoubleLink-umbrella.h"
+
+  export *
+  module * { export * }
+}

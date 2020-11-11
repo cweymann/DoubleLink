@@ -15,8 +15,18 @@ class Tests: XCTestCase {
     
     func testExample() {
         // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
+		XCTAssert(ReplaceMe().dummy(), "Pass")
     }
+	
+	func testCast(){
+		let instance : Any = ReplaceMe(flag:false)
+		var canCast = false
+		if let castInstance = instance as? ReplaceMe {
+			XCTAssertFalse(castInstance.dummy())
+			canCast = true
+		}
+		XCTAssert(canCast)
+	}
     
     func testPerformanceExample() {
         // This is an example of a performance test case.

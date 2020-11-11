@@ -1,0 +1,16 @@
+PODS:
+  - DoubleLink (0.1.0)
+
+DEPENDENCIES:
+  - DoubleLink (from `../`)
+
+EXTERNAL SOURCES:
+  DoubleLink:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DoubleLink: d883a45a65ef9a1a68ceeaaf25a0ce66f5b8a502
+
+PODFILE CHECKSUM: d1a458efadf6ead0d29b58ab0b672a082c25390b
+
+COCOAPODS: 1.10.0

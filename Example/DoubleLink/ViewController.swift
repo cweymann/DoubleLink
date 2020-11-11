@@ -7,12 +7,19 @@
 //
 
 import UIKit
+import DoubleLink
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+		if ReplaceMe().dummy() {
+			print("works")
+		}
+		else {
+			print("failed")
+		}
     }
 
     override func didReceiveMemoryWarning() {
