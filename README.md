@@ -1,9 +1,10 @@
 # DoubleLink
+## Purpose
 
-[![CI Status](https://img.shields.io/travis/Claus Weymann/DoubleLink.svg?style=flat)](https://travis-ci.org/Claus Weymann/DoubleLink)
-[![Version](https://img.shields.io/cocoapods/v/DoubleLink.svg?style=flat)](https://cocoapods.org/pods/DoubleLink)
-[![License](https://img.shields.io/cocoapods/l/DoubleLink.svg?style=flat)](https://cocoapods.org/pods/DoubleLink)
-[![Platform](https://img.shields.io/cocoapods/p/DoubleLink.svg?style=flat)](https://cocoapods.org/pods/DoubleLink)
+This is inteded to show a Cocoapods issue that occurs when using static frameworks. To demostrate is just run the unit tests. You should see a warning 
+[...]ReplaceMe is implemented in both [...]/DoubleLink_Example.app/DoubleLink_Example ([...]) and [...]/DoubleLink_Example.app/PlugIns/DoubleLink_Tests.xctest/DoubleLink_Tests ([...]). One of the two will be used. Which one is undefined.
+
+In more complicated setups this can lead to issues where you cast would fail ( as? ReplaceMe  would result in nil because the instance is of the type of the other implementation)
 
 ## Example
 
