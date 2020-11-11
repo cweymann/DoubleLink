@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DoubleLink_Example' do
+  pod 'DoubleLink', :path => '../'
+
+  target 'DoubleLink_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
